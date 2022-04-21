@@ -22,11 +22,11 @@ function RecipeCreate({handleAddRecipe}) {
       <table>
         <tbody>
           <tr>
-            <td><input name= "name" onChange= {e => setName (e.target.value)}/></td>
-              <td><input name="cuisine" onChange= {e => setCuisine (e.target.value)}/></td>
-                <td><input name="photo" onChange= {e => setPhoto (e.target.value)}/></td>
-                  <td><textarea name="ingredients" onChange= {e => setIngredients (e.target.value)}/></td>
-                    <td><textarea name="preparation" onChange= {e => setPreparation (e.target.value)}/></td>
+            <td><input placeholder= "Name" name= "name" onChange= {e => setName (e.target.value)}/></td>
+              <td><input placeholder= "Cuisine" name="cuisine" onChange= {e => setCuisine (e.target.value)}/></td>
+                <td><input placeholder= "URL" name="photo" onChange= {e => setPhoto (e.target.value)}/></td>
+                  <td><textarea placeholder= "Ingredients" name="ingredients" onChange= {e => setIngredients (e.target.value)}/></td>
+                    <td><textarea placeholder= "Preparation" name="preparation" onChange= {e => setPreparation (e.target.value)}/></td>
             <td>
               <button type="submit">Create</button>
             </td>
